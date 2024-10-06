@@ -1,1 +1,1 @@
-# homepage
+This page use [hugoplate](https://github.com/zeon-studio/hugoplate)
