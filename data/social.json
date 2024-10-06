@@ -1,24 +1,19 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
-    },
-    {
       "name": "twitter",
       "icon": "fab fa-twitter",
-      "link": "https://twitter.com/"
+      "link": "https://twitter.com/y_ta_1200"
     },
     {
       "name": "github",
       "icon": "fab fa-github",
-      "link": "https://www.github.com/"
+      "link": "https://yukina-t156.github.com/"
     },
     {
       "name": "linkedin",
       "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://www.linkedin.com/in/yukina-tatsuta-8362522ba/"
     }
   ]
 }
