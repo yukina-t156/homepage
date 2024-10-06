@@ -12,7 +12,7 @@ url = "/about"
 weight = 2
 
 [[main]]
-weight = 4
+weight = 5
 name = "Pages"
 
 [[main]]
@@ -30,10 +30,10 @@ url = "/quantum"
 # name = "Blog"
 # url = "/blog"
 
-[[main]]
-parent = "Pages"
-name = "Contact"
-url = "/contact"
+# [[main]]
+# parent = "Pages"
+# name = "Contact"
+# url = "/contact"
 
 # [[main]]
 # parent = "Pages"

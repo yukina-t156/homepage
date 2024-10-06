@@ -33,6 +33,16 @@ features:
       label: "リンク"
       link: "blog"
 
+  - title: "量子関連"
+    image: "/images/service-2.png"
+    content: "研究や自学での内容を置きます"
+    # bulletpoints:
+    #   - "1"
+    #   - "2"
+    button:
+      enable: true
+      label: "リンク"
+      link: "quantum"
 
   - title: "hugo"
     image: "/images/service-2.png"
