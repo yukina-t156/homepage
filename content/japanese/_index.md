@@ -4,10 +4,10 @@ banner:
   title: "ホームページ"
   content: "✌️"
   image: "/images/banner.png"
-  button:
-    enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+  # button:
+  #   enable: true
+  #   label: "Get Started For Free"
+  #   link: "https://github.com/zeon-studio/hugoplate"
 
 # Features
 features:
@@ -32,4 +32,13 @@ features:
       enable: true
       label: "リンク"
       link: "blog"
+
+
+  - title: "hugo"
+    image: "/images/service-2.png"
+    content: "このブログはhugoplateを使用して制作しています"
+    button:
+      enable: true
+      label: "hugoplate"
+      link: "https://github.com/zeon-studio/hugoplate"
 ---
