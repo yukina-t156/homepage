@@ -103,9 +103,16 @@ https://www.nature.com/articles/s41598-022-10555-8
 - 変分パラメータ数を増やすことで近似率を上昇
 > In ma-QAOA, new parameters are introduced into the circuit so that each element of the cost and mixer layers has its angle instead of one angle for the cost operator and one for the mixer operator
 
+
+$$U_C(\gamma_l) = e^{-i\sum_{a=1}^{m}\gamma_{l,a}H_{C,a}} = \prod_{a=1}^{m}e^{-i\gamma_{l,a}H_{C,a}}$$
+
+$$U_M(\beta_l) = e^{-i\sum_{v=1}^{n}\beta_{l,v}H_{M,v}} = \prod_{v=1}^{n}e^{-i\beta_{l,v}H_{M,v}}$$
+
+  - $\gamma_{l, m}$: $l$はレイヤ，$m$はグラフの辺の数
+  - $\beta_{l,m}$: $l$はレイヤ，$n$は頂点の数(=qubit数)
 - コスト層，ミキサー層の各要素がそれぞれ角度のパラメータを持つ
   - 各要素とは？各量子ビットのこと？っぽい？
-- 
+- 一般のQAOAはma-QAOAの一種：ビットやノードごとでのパラメータが一致したもの
 
 ##### 3.1.2. QAOA+
 ##### 3.1.3. Digitized counterdiabatic QAOA
