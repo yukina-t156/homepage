@@ -122,6 +122,10 @@ $$U_M(\beta_l) = e^{-i\sum_{v=1}^{n}\beta_{l,v}H_{M,v}} = \prod_{v=1}^{n}e^{-i\b
 ##### 3.1.7. Quantum alternating operator ansatz
 ##### 3.1.8. Qarm-starting QAOA
 ##### 3.1.9. FALQON
+
+- ハイブリッド形式 → 将来的に情報のやり取りがボトルネックになる
+  - 最適化も量子コンピュータで行うことができないか？
+
 ##### 3.1.10. Fermionic QAOA
 ##### 3.1.11. Quantum dropout
 ##### 3.1.12. Spanning tree QAOA
