@@ -1,4 +1,4 @@
-############# English navigation ##############
+############# Japanese navigation ##############
 
 # main menu
 [[main]]
@@ -7,28 +7,39 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About"
+name = "自己紹介"
 url = "/about"
 weight = 2
 
 [[main]]
-weight = 5
-name = "Pages"
+weight = 3
+name = "お知らせ"
+url = "/announcement"
 
 [[main]]
-weight = 3
+weight = 11
 name = "Blog"
 url = "/blog"
 
 [[main]]
-weight = 4
+weight = 12
+name = "Pages"
+url = "/pages"
+
+# [[main]]
+# weight = 12
+# name = "Quantum"
+# url = "/quantum"
+
+[[main]]
+parent = "Pages"
 name = "Quantum"
 url = "/quantum"
 
-# [[main]]
-# parent = "Pages"
-# name = "Blog"
-# url = "/blog"
+[[main]]
+parent = "Pages"
+name = "Books"
+url = "/books"
 
 # [[main]]
 # parent = "Pages"
@@ -40,15 +51,15 @@ url = "/quantum"
 # name = "Authors"
 # url = "/authors"
 
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
+# [[main]]
+# parent = "Pages"
+# name = "Categories"
+# url = "/categories"
 
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
+# [[main]]
+# parent = "Pages"
+# name = "404 Page"
+# url = "/404"
 
 # footer menu
 [[footer]]
